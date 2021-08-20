@@ -20,7 +20,7 @@ public class c {
 
         public static void main(String[] args) {
             try {
-                getConnection();
+                System.out.println(getConnection());
             } catch (Exception e) {
                 e.printStackTrace();
             }
